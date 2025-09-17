@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Yudistiari Redita</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+        
+        .hero {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: white;
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            color: #f0f0f0;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+        
+        .btn:hover {
+            background: #ff5252;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+            .container { padding: 20px 10px; }
+            .hero { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <img src="https://via.placeholder.com/200x200/667eea/white?text=FOTO" alt="Profile Picture" class="profile-img">
+            <h1>Hello!, I'm Yudistiari Redita</h1>
+            <p class="subtitle">Fresh Graduate</p>
+            <p style="color: white; margin: 20px 0;">
+                Welcome to my portofolio 
+            </p>
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="#projects" class="btn" style="background: transparent; border: 2px solid white;">Previous project</a>
+        </div>
+        
+        <div class="section">
+            <h2>🚀 About Me</h2>
+            <p>
+                I’m Ida Ayu Yudistiari Redita Putri, an Industrial Engineering graduate with a strong interest in digital marketing and product development. I’ve completed a Digital Marketing Bootcamp at Harisenin.com, gaining practical skills in SEO, SEM, content strategy, and online advertising.
+With experiences ranging from content creation and campaign execution as a Brand Ambassador, to risk analysis and reporting at PT Angkasa Pura Indonesia, I bring a mix of creative, analytical, and organizational skills. My goal is to craft impactful strategies and contribute to innovative projects in the digital space.
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>💪 Skills</h2>
+            <div class="skills">
+                <span class="skill-tag">SEO</span>
+                <span class="skill-tag">SEM</span>
+                <span class="skill-tag">Google Analytic</span>
+                <span class="skill-tag">Social Media Management</span>
+                <span class="skill-tag">Copywriting</span>
+                <span class="skill-tag">Online Advertising</span>
+                <span class="skill-tag">Meta Ads</span>
+                <span class="skill-tag">Microsoft Office Suite (Word, Excel, PowerPoint)</span>
+            </div>
+        </div>
+        
+        <div class="section" id="projects">
+            <h2>🎨 Projects</h2>
+            <p><strong>Project 1:</strong> Digital Marketing Plan for Dummy Coffee Shop (SEO & Social Media)</p>
+            <p><strong>Project 2:</strong> Meta Ads Campaign Simulation for Local Fashion Brand</p>
+            <p><strong>Project 3:</strong> Content Strategy & Calendar for Skincare Brand</p>
+            <p><strong>Project 3:</strong> Copywriting & SEO Content Plan for Fashion Brand</p>
+            <p style="margin-top: 20px;">
+                <em>Will updated with newest detail!</em>
+            </p>
+        </div>
+        
+        <div class="section" id="contact">
+            <h2>📧 Contacts</h2>
+            <p><strong>Email:</strong> yudistiariredita.email@gmail.com</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/IdaAyuYudistiariReditaPutri</p>
+            <p><strong>Instagram:</strong> @aayrdptr_</p>
+        </div>
+    </div>
+</body>
+</html>
